@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="media1.css">
+        <link rel="stylesheet" href="style1.css">
+     </head>
+     <body>
+    <div class="p1">
+        <h1>COLLEGE ADMISSION FORM</h1>
+        <h4>Enter your admission information below</h4><br><br>
+    </div>
+    <form class="row g-3 needs-validation" novalidate>
+        <div class="col-4">
+          <label for="validationCustom01" class="form-label">First Name</label>
+          <input type="text" class="form-control" id="validationCustom01" placeholder="Enter your first name" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+          <div class="invalid-feedback">
+            Please fulfill this gap!
+          </div>
+        </div>
+        <div class="col-4">
+          <label for="validationCustom02" class="form-label">Middle Name</label>
+          <input type="text" class="form-control" id="validationCustom02" placeholder="Enter your middle name" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+          <div class="invalid-feedback">
+            Please fulfill this gap!
+          </div>
+        </div>
+        <div class="col-4">
+          <label for="validationCustomUsername" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="validationCustom03" placeholder="Enter your last name" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+            <div class="invalid-feedback">
+              Please fulfill this gap!
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-4">
+          <label for="validationCustom04" class="form-label">Birth Date</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected  value="">Please select a day</option>
+            <option value="1">1</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid day.
+          </div>
+        </div>
+
+        <div class="col-4">
+            <label for="validationCustom04" class="form-label">Birth Date</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option selected  value="">Please select a month</option>
+              <option value="7">7</option>
+            </select>
+            <div class="invalid-feedback">
+              Please select a valid month.
+            </div>
+          </div>
+
+          <div class="col-4">
+            <label for="validationCustom04" class="form-label">Birth Date</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option selected  value="">Please select a year</option>
+              <option value="2004">2004</option>
+              <option value="2004">2006</option>
+            </select>
+            <div class="invalid-feedback">
+              Please select a valid year.
+            </div>
+          </div>
+
+        <div class="col-2">
+            <label for="validationCustom05" class="form-label">Gender</label>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Male
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Female
+            </label>
+          </div>
+        </div>
+        <div class="col-5">
+            <label for="validationCustom04" class="form-label">Nationality</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option>Please select your country</option>
+              <option value="Bangladesh">Bangladesh</option>
+            </select>
+            <div class="invalid-feedback">
+              Please select a valid country!
+            </div>
+        </div>
+        <div class="col-5">
+          <label for="validationCustom04" class="form-label">Religion</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option>Please select your religion</option>
+            <option value="Islam">Islam</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select your religion!
+          </div>
+        </div>
+          
+          <div class="col-6 mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="col-6">
+            <label for="inputPassword5" class="form-label">Password</label>
+              <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                <div id="passwordHelpBlock" class="form-text">
+             Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                </div>
+          </div>
+
+          <div class="col-8">
+            <label for="validationCustom04" class="form-label">Previos School</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option>Please select your previous school name</option>
+              <option value="Monohardi Pilot High School">Monohardi Pilot High School</option>
+            </select>
+            <div class="invalid-feedback">
+              Please select your previous school name!
+            </div>
+          </div>
+
+          <div class="col-4">
+            <label for="validationCustom04" class="form-label">Previos School Result</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option>Please given your previous school result</option>
+              <option value="5.00">GPA-5</option>
+            </select>
+            <div class="invalid-feedback">
+              Please given your previous school result!
+            </div>
+          </div>
+
+
+        <div class="col-md-2">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+        <script src="bootstrap.bundle.min.js"></script>
+        <script src="script1.js"></script>
+
+     </body>
+</html>
